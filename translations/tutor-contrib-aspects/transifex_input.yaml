@@ -20,7 +20,7 @@ en:
   Action Count: Action Count
   Action Date: Action Date
   Active: Active
-  Active Courses: Active Courses
+  Active Courses: Active Modules
   Active Learner: Active Learner
   Active Learners: Active Learners
   Active Users Per Organization: Active Users Per Organization
@@ -40,7 +40,7 @@ en:
   Avg Attempts: Avg Attempts
   Avg Correct Attempts Coursewide: Avg Correct Attempts Coursewide
   Avg Correct Attempts by Selected Learners: Avg Correct Attempts by Selected Learners
-  Avg Course Grade: Avg Course Grade
+  Avg Course Grade: Avg Module Grade
   Avg Incorrect Attempts Coursewide: Avg Incorrect Attempts Coursewide
   Avg Incorrect Attempts by Selected Learners: Avg Incorrect Attempts by Selected
     Learners
@@ -73,31 +73,31 @@ en:
   Count over time of unique users who performed an action in Superset over the selected time period.: Count
     over time of unique users who performed an action in Superset over the selected
     time period.
-  Course Comparison Dashboard: Course Comparison Dashboard
-  Course Dashboard: Course Dashboard
-  Course Data JSON: Course Data JSON
-  Course End: Course End
-  Course Enrollment Mode Status Cnt: Course Enrollment Mode Status Cnt
-  Course Enrollments Over Time: Course Enrollments Over Time
-  Course Grade: Course Grade
-  Course Grade %: Course Grade %
-  Course ID: Course ID
-  Course Info: Course Info
-  Course Information: Course Information
-  Course Key: Course Key
-  Course Key Short: Course Key Short
-  Course Metrics: Course Metrics
-  Course Name: Course Name
-  Course Order: Course Order
-  Course Run: Course Run
-  Course Start: Course Start
-  Course Tag: Course Tag
-  Course grade: Course grade
-  Course name: Course name
-  Course run: Course run
-  Courses: Courses
-  Courses Cnt: Courses Cnt
-  Courses Per Organization: Courses Per Organization
+  Course Comparison Dashboard: Module Comparison Dashboard
+  Course Dashboard: Module Dashboard
+  Course Data JSON: Module Data JSON
+  Course End: Module End
+  Course Enrollment Mode Status Cnt: Module Enrollment Mode Status Cnt
+  Course Enrollments Over Time: Module Enrollments Over Time
+  Course Grade: Module Grade
+  Course Grade %: Module Grade %
+  Course ID: Module ID
+  Course Info: Module Info
+  Course Information: Module Information
+  Course Key: Module Key
+  Course Key Short: Module Key Short
+  Course Metrics: Module Metrics
+  Course Name: Module Name
+  Course Order: Module Order
+  Course Run: Module Run
+  Course Start: Module Start
+  Course Tag: Module Tag
+  Course grade: Module grade
+  Course name: Module name
+  Course run: Module run
+  Courses: Modules
+  Courses Cnt: Modules Cnt
+  Courses Per Organization: Modules Per Organization
   Coursewide % Correct: Coursewide % Correct
   Coursewide Percent Correct: Coursewide Percent Correct
   Coursewide averages are based on learners who attempted the problem.: Coursewide
@@ -122,10 +122,10 @@ en:
   Description: Description
   Display Name: Display Name
   Displays the top 10 highest enrollment courses. Selecting different courses in the filter will display those courses.: Displays
-    the top 10 highest enrollment courses. Selecting different courses in the filter
-    will display those courses.
-  Distribution of Course Grades: Distribution of Course Grades
-  Distribution of Current Course Grade: Distribution of Current Course Grade
+    the top 10 highest enrollment modules. Selecting different modules in the filter
+    will display those modules.
+  Distribution of Course Grades: Distribution of Module Grades
+  Distribution of Current Course Grade: Distribution of Current Module Grade
   Dump ID: Dump ID
   Duration (Seconds): Duration (Seconds)
   Email: Email
@@ -167,7 +167,7 @@ en:
   Help: Help
   Http User Agent: Http User Agent
   Id: Id
-  'In-Context Analytics: Course': 'In-Context Analytics: Course'
+  'In-Context Analytics: Course': 'In-Context Analytics: Module'
   'In-Context Analytics: Graded Subsection': 'In-Context Analytics: Graded Subsection'
   'In-Context Analytics: Problem': 'In-Context Analytics: Problem'
   'In-Context Analytics: Video': 'In-Context Analytics: Video'
@@ -179,13 +179,13 @@ en:
   Initial Responses: Initial Responses
   Instance Health: Instance Health
   Interaction Type: Interaction Type
-  Last Course Published: Last Course Published
+  Last Course Published: Last Module Published
   Last Login: Last Login
   Last Name: Last Name
   Last Received Event: Last Received Event
   Last Visit Date: Last Visit Date
   Last Visited: Last Visited
-  Last course syncronized: Last course syncronized
+  Last course syncronized: Last module syncronized
   Learner Performance: Learner Performance
   Learner Performance Breakdown: Learner Performance Breakdown
   Learner Status: Learner Status
@@ -194,7 +194,7 @@ en:
   Learners with Passing Grade: Learners with Passing Grade
   Login Count: Login Count
   Median Attempts: Median Attempts
-  Median Course Grade: Median Course Grade
+  Median Course Grade: Median Module Grade
   Memory Usage (KB): Memory Usage (KB)
   Memory Usage Mb: Memory Usage Mb
   Modified: Modified
@@ -312,7 +312,7 @@ en:
     of the video in the Video Link column in table above.
   Total: Total
   Total Avg: Total Avg
-  Total Courses: Total Courses
+  Total Courses: Total Modules
   Total Organizations: Total Organizations
   Total Views: Total Views
   Unique Viewers: Unique Viewers

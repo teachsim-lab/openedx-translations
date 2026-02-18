@@ -30,7 +30,7 @@ msgstr ""
 
 #: api/v1/views.py:97
 msgid "User is not enrolled in course."
-msgstr ""
+msgstr "User is not enrolled in module."
 
 #: api/v1/views.py:115
 msgid "Invalid learning context key: {}"

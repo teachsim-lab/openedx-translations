@@ -114,7 +114,7 @@ msgstr ""
 #: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:1
 #: xblock/static/js/src/oa_server.js:696
 msgid "Multiple teams returned for course"
-msgstr ""
+msgstr "Multiple teams returned for module"
 
 #: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:8
 #: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:1
@@ -352,9 +352,11 @@ msgstr ""
 #: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
 #: xblock/static/js/src/lms/oa_response.js:658
 msgid ""
-"File upload failed: unsupported file type. Only the supported file types can "
-"be uploaded. If you have questions, please reach out to the course team."
+"File upload failed: unsupported file type. Only the supported file types can"
+" be uploaded. If you have questions, please reach out to the course team."
 msgstr ""
+"File upload failed: unsupported file type. Only the supported file types can"
+" be uploaded. If you have questions, please reach out to the module team."
 
 #: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
 #: xblock/static/js/src/lms/oa_response.js:669
@@ -493,8 +495,8 @@ msgstr ""
 
 #: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
 msgid ""
-"However, {overwritten_count} of these students have received a grade through "
-"the staff grade override tool already."
+"However, {overwritten_count} of these students have received a grade through"
+" the staff grade override tool already."
 msgstr ""
 
 #: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:362
@@ -605,15 +607,15 @@ msgstr ""
 #: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:395
 msgid ""
-"Changes to steps that are not selected as part of the assignment will not be "
-"saved."
+"Changes to steps that are not selected as part of the assignment will not be"
+" saved."
 msgstr ""
 
 #: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
 #: xblock/static/js/src/studio/oa_edit_settings.js:104
 msgid ""
-"Time must be in the format dd:hh:mm. The days must be between 00 and 99, the "
-"hours between 00 and 23, and the minutes between 00 and 59."
+"Time must be in the format dd:hh:mm. The days must be between 00 and 99, the"
+" hours between 00 and 23, and the minutes between 00 and 59."
 msgstr ""
 
 #: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
@@ -638,8 +640,8 @@ msgstr ""
 
 #: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11
 msgid ""
-"This ORA has already been released. Changes will only affect learners making "
-"new submissions. Existing submissions will not be modified by this change."
+"This ORA has already been released. Changes will only affect learners making"
+" new submissions. Existing submissions will not be modified by this change."
 msgstr ""
 
 #: xblock/static/dist/openassessment-studio.65076e7e76039d8c8ab2.js:11

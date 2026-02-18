@@ -72,7 +72,7 @@ msgstr ""
 
 #: default_data.py:27
 msgid "Of course it goes here! It goes anywhere!"
-msgstr ""
+msgstr "Of module it goes here! It goes anywhere!"
 
 #: default_data.py:29
 msgid "Goes to the top"
@@ -140,8 +140,8 @@ msgstr ""
 
 #: drag_and_drop_v2.py:110
 msgid ""
-"Defines the number of times a student can try to answer this problem. If the "
-"value is not set, infinite attempts are allowed."
+"Defines the number of times a student can try to answer this problem. If the"
+" value is not set, infinite attempts are allowed."
 msgstr ""
 
 #: drag_and_drop_v2.py:119
@@ -175,8 +175,8 @@ msgstr ""
 #: drag_and_drop_v2.py:143
 msgid ""
 "Defines when to show the answer to the problem. A default value can be set "
-"in Advanced Settings. To revert setting a custom value, choose the 'Default' "
-"option."
+"in Advanced Settings. To revert setting a custom value, choose the 'Default'"
+" option."
 msgstr ""
 
 #: drag_and_drop_v2.py:149
@@ -273,6 +273,9 @@ msgid ""
 "for this problem. This information is derived from the input that a course "
 "author provides via the interactive editor when configuring the problem."
 msgstr ""
+"Information about zones, items, feedback, explanation and background image "
+"for this problem. This information is derived from the input that a module "
+"author provides via the interactive editor when configuring the problem."
 
 #: drag_and_drop_v2.py:210
 msgid ""
@@ -294,7 +297,8 @@ msgid ""
 msgstr ""
 
 #: drag_and_drop_v2.py:237
-msgid "Keeps maximum score achieved by student as a raw value between 0 and 1."
+msgid ""
+"Keeps maximum score achieved by student as a raw value between 0 and 1."
 msgstr ""
 
 #: drag_and_drop_v2.py:244
@@ -304,7 +308,7 @@ msgstr ""
 #: drag_and_drop_v2.py:568
 #, python-brace-format
 msgid "Unknown DnDv2 mode {mode} - course is misconfigured"
-msgstr ""
+msgstr "Unknown DnDv2 mode {mode} - module is misconfigured"
 
 #: drag_and_drop_v2.py:643
 msgid "show_answer handler should only be called for assessment mode"
@@ -376,7 +380,8 @@ msgstr ""
 
 #: templates/html/drag_and_drop_edit.html:135
 msgid ""
-"For example, 'http://example.com/background.png' or '/static/background.png'."
+"For example, 'http://example.com/background.png' or "
+"'/static/background.png'."
 msgstr ""
 
 #: templates/html/drag_and_drop_edit.html:140
@@ -422,12 +427,9 @@ msgstr ""
 #: templates/html/drag_and_drop_edit.html:189
 msgid ""
 "\n"
-"                            Please provide a description of the image for "
-"non-visual users.\n"
-"                            The description should provide sufficient "
-"information to allow anyone\n"
-"                            to solve the problem even without seeing the "
-"image.\n"
+"                            Please provide a description of the image for non-visual users.\n"
+"                            The description should provide sufficient information to allow anyone\n"
+"                            to solve the problem even without seeing the image.\n"
 "                        "
 msgstr ""
 
@@ -513,8 +515,8 @@ msgid ""
 "Misplaced {misplaced_count} item (misplaced item was returned to the item "
 "bank)"
 msgid_plural ""
-"Misplaced {misplaced_count} items (misplaced items were returned to the item "
-"bank)"
+"Misplaced {misplaced_count} items (misplaced items were returned to the item"
+" bank)"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -616,14 +618,14 @@ msgstr ""
 
 #: public/js/drag_and_drop.js:370
 msgid ""
-"Press ESC if you want to cancel the drop operation (for example, to select a "
-"different item)."
+"Press ESC if you want to cancel the drop operation (for example, to select a"
+" different item)."
 msgstr ""
 
 #: public/js/drag_and_drop.js:371
 msgid ""
-"TAB back to the list of draggable items and repeat this process until all of "
-"the draggable items have been placed on their respective dropzones."
+"TAB back to the list of draggable items and repeat this process until all of"
+" the draggable items have been placed on their respective dropzones."
 msgstr ""
 
 #: public/js/drag_and_drop.js:389

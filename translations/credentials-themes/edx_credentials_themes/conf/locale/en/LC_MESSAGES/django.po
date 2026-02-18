@@ -67,6 +67,8 @@ msgid ""
 "has successfully completed all courses and received passing grades to earn a"
 " MicroBachelors program certificate in"
 msgstr ""
+"has successfully completed all modules and received passing grades to earn a"
+" MicroBachelors program certificate in"
 
 #. Translators: MicroBachelors should not be translated
 #: templates/edx.org/credentials/programs/microbachelors/certificate.html:12
@@ -88,6 +90,11 @@ msgid ""
 "{link_start}Verified Certificates{link_end} from each of the courses "
 "included in the program."
 msgstr ""
+"An edX MicroBachelors credential signifies that the learner has completed a "
+"group of modules that add up to a rich understanding of an area of study. "
+"Completion of MicroBachelors programs requires that learners earn "
+"{link_start}Verified Certificates{link_end} from each of the modules "
+"included in the program."
 
 #. Translators: MicroMasters should not be translated
 #: templates/edx.org/credentials/programs/micromasters/certificate.html:8
@@ -104,6 +111,8 @@ msgid ""
 "has successfully completed all courses and received passing grades to earn a"
 " MicroMasters program certificate in"
 msgstr ""
+"has successfully completed all modules and received passing grades to earn a"
+" MicroMasters program certificate in"
 
 #. Translators: MicroMasters should not be translated
 #: templates/edx.org/credentials/programs/micromasters/certificate.html:21
@@ -125,6 +134,11 @@ msgid ""
 "{link_start}Verified Certificates{link_end} from each of the courses "
 "included in the Program."
 msgstr ""
+"An edX MicroMasters credential signifies that the learner has completed a "
+"group of modules that add up to a rich understanding of an area of study. "
+"Completion of MicroMasters Programs requires that learners earn "
+"{link_start}Verified Certificates{link_end} from each of the modules "
+"included in the Program."
 
 #. Translators: This phrase is preceded by the learner's name and followed by
 #. a program title
@@ -133,6 +147,8 @@ msgid ""
 "successfully completed all courses and received passing grades for a "
 "Professional Certificate in"
 msgstr ""
+"successfully completed all modules and received passing grades for a "
+"Professional Certificate in"
 
 #: templates/edx.org/credentials/programs/professional-certificate/certificate.html:11
 msgid "Professional Certificate"
@@ -151,6 +167,11 @@ msgid ""
 "{link_start}Verified Certificates{link_end} from each of the courses "
 "included in the Program."
 msgstr ""
+"An edX Professional Certificate signifies that the learner has completed a "
+"group of modules that add up to a rich understanding of an area of study. "
+"Completion of Professional Certificate Programs requires that learners earn "
+"{link_start}Verified Certificates{link_end} from each of the modules "
+"included in the Program."
 
 #. Translators: XSeries should not be translated
 #: templates/edx.org/credentials/programs/xseries/certificate.html:8
@@ -167,6 +188,8 @@ msgid ""
 "has successfully completed all courses and received passing grades for an "
 "XSeries Program certificate in"
 msgstr ""
+"has successfully completed all modules and received passing grades for an "
+"XSeries Program certificate in"
 
 #. Translators: XSeries should not be translated
 #: templates/edx.org/credentials/programs/xseries/certificate.html:21
@@ -188,3 +211,8 @@ msgid ""
 "{link_start}Verified Certificates{link_end} from each of the courses "
 "included in the Program."
 msgstr ""
+"An edX XSeries Program certificate signifies that the learner has completed "
+"a group of modules that add up to a rich understanding of an area of study. "
+"Completion of XSeries Programs requires that learners earn "
+"{link_start}Verified Certificates{link_end} from each of the modules "
+"included in the Program."

@@ -208,7 +208,7 @@ msgstr ""
 
 #: static/proctoring/js/views/proctored_exam_info.js:35
 msgid "Your onboarding exam has been approved in this course."
-msgstr ""
+msgstr "Your onboarding exam has been approved in this module."
 
 #: static/proctoring/js/views/proctored_exam_info.js:39
 msgid "Your onboarding exam has been rejected. Please retry onboarding."
@@ -222,11 +222,11 @@ msgstr ""
 #: static/proctoring/js/views/proctored_exam_info.js:46
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:32
 msgid "Approved in Another Course"
-msgstr ""
+msgstr "Approved in Another Module"
 
 #: static/proctoring/js/views/proctored_exam_info.js:47
 msgid "Your onboarding exam has been approved in another course."
-msgstr ""
+msgstr "Your onboarding exam has been approved in another module."
 
 #: static/proctoring/js/views/proctored_exam_info.js:49
 msgid ""
@@ -234,6 +234,9 @@ msgid ""
 "onboarding exam in order to ensure that your setup still meets the "
 "requirements for proctoring."
 msgstr ""
+"If your device has changed, we recommend that you complete this module's "
+"onboarding exam in order to ensure that your setup still meets the "
+"requirements for proctoring."
 
 #: static/proctoring/js/views/proctored_exam_info.js:55
 msgid "Expiring Soon"
@@ -300,6 +303,5 @@ msgstr ""
 #: static/proctoring/js/views/proctored_exam_view.js:153
 msgid ""
 "Are you sure you want to leave this page? \n"
-"To pass your proctored exam you must also pass the online proctoring session "
-"review."
+"To pass your proctored exam you must also pass the online proctoring session review."
 msgstr ""

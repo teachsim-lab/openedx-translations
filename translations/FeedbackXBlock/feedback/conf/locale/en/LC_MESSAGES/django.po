@@ -37,6 +37,9 @@ msgid ""
 "synthesis will help you better understand and remember material from this "
 "course."
 msgstr ""
+"Take a little bit of time to reflect here. Research shows that a meaningful "
+"synthesis will help you better understand and remember material from this "
+"module."
 
 #: feedback.py:43 feedback.py:164
 msgid "Excellent"
@@ -112,13 +115,15 @@ msgstr ""
 
 #: feedback.py:159
 msgid "Please reflect on this course material"
-msgstr ""
+msgstr "Please reflect on this module material"
 
 #: feedback.py:160
 msgid ""
 "Please take time to meaningfully reflect on your experience with this course"
 " material."
 msgstr ""
+"Please take time to meaningfully reflect on your experience with this module"
+" material."
 
 #: feedback.py:163
 msgid "Please rate your overall experience"
@@ -170,6 +175,9 @@ msgid ""
 "This may be helpful either for course improvement, or to give students a "
 "chance to reflect on what they have done."
 msgstr ""
+"This XBlock allows you to collect student feedback on pieces of the module. "
+"This may be helpful either for module improvement, or to give students a "
+"chance to reflect on what they have done."
 
 #: templates/html/studio_view.html:9
 msgid "Display name"

@@ -23,8 +23,8 @@ msgstr ""
 
 #: assessment/api/student_training.py:191
 msgid ""
-"If your assignment includes a learner training step, the rubric must have at "
-"least one criterion, and that criterion must have at least one option."
+"If your assignment includes a learner training step, the rubric must have at"
+" least one criterion, and that criterion must have at least one option."
 msgstr ""
 
 #: assessment/api/student_training.py:203
@@ -173,9 +173,10 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_assessment_steps.html:6
 msgid ""
-"Open Response Assessments allow you to configure single or multiple steps in "
-"a rubric based open response assessment sequence. The steps available below "
-"can be enabled, disable, and ordered for a flexible set of pedagogical needs."
+"Open Response Assessments allow you to configure single or multiple steps in"
+" a rubric based open response assessment sequence. The steps available below"
+" can be enabled, disable, and ordered for a flexible set of pedagogical "
+"needs."
 msgstr ""
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:5
@@ -272,8 +273,8 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:79
 msgid ""
-"Enter the file extensions, separated by commas, that you want learners to be "
-"able to upload. For example: pdf,doc,docx."
+"Enter the file extensions, separated by commas, that you want learners to be"
+" able to upload. For example: pdf,doc,docx."
 msgstr ""
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:84
@@ -302,9 +303,9 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:117
 msgid ""
-"Specify the number of top scoring responses to display after the learner has "
-"submitted a response. Valid numbers are 0 to 99. If the number is 0, the Top "
-"Responses section does not appear to learners."
+"Specify the number of top scoring responses to display after the learner has"
+" submitted a response. Valid numbers are 0 to 99. If the number is 0, the "
+"Top Responses section does not appear to learners."
 msgstr ""
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:122
@@ -350,8 +351,8 @@ msgstr ""
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:187
 msgid ""
 "Specify the maximum period during which resubmissions are allowed. If left "
-"blank, learners will be able to reset their submission as long as it has not "
-"been graded. The grace period starts once the learner has submitted their "
+"blank, learners will be able to reset their submission as long as it has not"
+" been graded. The grace period starts once the learner has submitted their "
 "response."
 msgstr ""
 
@@ -459,8 +460,8 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:18
 msgid ""
-"Configuration: For this step to be configured you must specify the number of "
-"peer reviews a student will be assessed with, and the number of peer a "
+"Configuration: For this step to be configured you must specify the number of"
+" peer reviews a student will be assessed with, and the number of peer a "
 "student must grade. Additional options can be specified."
 msgstr ""
 
@@ -484,8 +485,8 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:39
 msgid ""
-"Specify the number of learners that each response must be assessed by. Valid "
-"numbers are 1 to 99."
+"Specify the number of learners that each response must be assessed by. Valid"
+" numbers are 1 to 99."
 msgstr ""
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:43
@@ -504,6 +505,9 @@ msgid ""
 "under the Open Response Assessment Settings card on the Pages & Resources "
 "studio page."
 msgstr ""
+"This feature is being enabled by the module-level setting. It can be found "
+"under the Open Response Assessment Settings card on the Pages & Resources "
+"studio page."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:60
 msgid "Grading strategy for the peer assessment"
@@ -593,8 +597,8 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_rubric.html:44
 msgid ""
-"Encourage learners to provide feedback on the response they have graded. You "
-"can replace the sample text with your own."
+"Encourage learners to provide feedback on the response they have graded. You"
+" can replace the sample text with your own."
 msgstr ""
 
 #: templates/legacy/edit/oa_edit_rubric.html:49
@@ -625,7 +629,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_schedule.html:22
 msgid "Match deadlines to the course end date"
-msgstr ""
+msgstr "Match deadlines to the module end date"
 
 #: templates/legacy/edit/oa_edit_schedule.html:25
 msgid "Learn more about open response date settings"
@@ -701,8 +705,8 @@ msgstr ""
 #: templates/legacy/edit/oa_edit_student_training.html:17
 msgid ""
 "Configuration: For this step to be fully configured you must provide one or "
-"more graded sample responses. Learners must then match this instructor score "
-"to advance and are provided feedback when their score doesn't match the "
+"more graded sample responses. Learners must then match this instructor score"
+" to advance and are provided feedback when their score doesn't match the "
 "sample response."
 msgstr ""
 
@@ -736,7 +740,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_rubric_reuse.html:21
 msgid "No other Open Response Assessments found in course"
-msgstr ""
+msgstr "No other Open Response Assessments found in module"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:31
 msgid "Clone"
@@ -772,8 +776,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                %(start_tag)s%(title)s%(end_tag)s%(start_grade_tag)s - "
-"%(grade)s%(end_tag)s\n"
+"                %(start_tag)s%(title)s%(end_tag)s%(start_grade_tag)s - %(grade)s%(end_tag)s\n"
 "              "
 msgstr ""
 
@@ -808,8 +811,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                                        %(points_earned)s out of "
-"%(points_possible)s\n"
+"                                        %(points_earned)s out of %(points_possible)s\n"
 "                                    "
 msgstr ""
 
@@ -821,8 +823,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                                            %(points_earned)s out of "
-"%(points_possible)s\n"
+"                                            %(points_earned)s out of %(points_possible)s\n"
 "                                        "
 msgstr ""
 
@@ -887,12 +888,16 @@ msgid ""
 "Your feedback has been submitted. Course staff will be able to see this "
 "feedback when they review course records."
 msgstr ""
+"Your feedback has been submitted. Module staff will be able to see this "
+"feedback when they review module records."
 
 #: templates/legacy/grade/oa_grade_complete.html:140
 msgid ""
 "Course staff will be able to see any feedback that you provide here when "
 "they review course records."
 msgstr ""
+"Module staff will be able to see any feedback that you provide here when "
+"they review module records."
 
 #: templates/legacy/grade/oa_grade_complete.html:146
 msgid ""
@@ -1007,16 +1012,21 @@ msgstr ""
 
 #: templates/legacy/message/oa_message_cancelled.html:8
 msgid ""
-"Your team’s submission has been cancelled. Your team will receive a grade of "
-"zero unless course staff resets your assessment to allow the team to "
+"Your team’s submission has been cancelled. Your team will receive a grade of"
+" zero unless course staff resets your assessment to allow the team to "
 "resubmit a response."
 msgstr ""
+"Your team’s submission has been cancelled. Your team will receive a grade of"
+" zero unless module staff resets your assessment to allow the team to "
+"resubmit a response."
 
 #: templates/legacy/message/oa_message_cancelled.html:10
 msgid ""
 "Your submission has been cancelled. You will receive a grade of zero unless "
 "course staff resets your assessment to allow you to resubmit a response."
 msgstr ""
+"Your submission has been cancelled. You will receive a grade of zero unless "
+"module staff resets your assessment to allow you to resubmit a response."
 
 #: templates/legacy/message/oa_message_closed.html:8
 msgid ""
@@ -1065,9 +1075,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                                    %(start_strong)sThis assignment is in "
-"progress. The self assessment step will close soon.%(end_strong)s You still "
-"need to complete the %(start_link)sself assessment%(end_link)s step.\n"
+"                                    %(start_strong)sThis assignment is in progress. The self assessment step will close soon.%(end_strong)s You still need to complete the %(start_link)sself assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
 
@@ -1075,8 +1083,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                                    This assignment is in progress. You "
-"still need to complete the %(start_link)sself assessment%(end_link)s step.\n"
+"                                    This assignment is in progress. You still need to complete the %(start_link)sself assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
 
@@ -1084,11 +1091,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                                    This assignment is in progress."
-"%(start_strong)sThe peer assessment step will close soon.%(end_strong)s All "
-"submitted peer responses have been assessed. Check back later to see if more "
-"learners have submitted responses. You still need to complete the "
-"%(start_link)speer assessment%(end_link)s step.\n"
+"                                    This assignment is in progress.%(start_strong)sThe peer assessment step will close soon.%(end_strong)s All submitted peer responses have been assessed. Check back later to see if more learners have submitted responses. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
 
@@ -1096,10 +1099,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                                    This assignment is in progress. All "
-"submitted peer responses have been assessed. Check back later to see if more "
-"learners have submitted responses. You still need to complete the "
-"%(start_link)speer assessment%(end_link)s step.\n"
+"                                    This assignment is in progress. All submitted peer responses have been assessed. Check back later to see if more learners have submitted responses. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
 
@@ -1107,9 +1107,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                                    This assignment is in progress. "
-"%(start_strong)sThe peer assessment step will close soon.%(end_strong)s You "
-"still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
+"                                    This assignment is in progress. %(start_strong)sThe peer assessment step will close soon.%(end_strong)s You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
 
@@ -1117,8 +1115,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                                    This assignment is in progress. You "
-"still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
+"                                    This assignment is in progress. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
 
@@ -1131,10 +1128,8 @@ msgstr ""
 msgid ""
 "\n"
 "            This is a team assignment for team-set \"%(teamset_name)s\".\n"
-"            You are currently not on a team in team-set "
-"\"%(teamset_name)s\".\n"
-"            You must be on a team in team-set \"%(teamset_name)s\" to access "
-"this team assignment.\n"
+"            You are currently not on a team in team-set \"%(teamset_name)s\".\n"
+"            You must be on a team in team-set \"%(teamset_name)s\" to access this team assignment.\n"
 "            "
 msgstr ""
 
@@ -1142,9 +1137,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                    Assignment submissions will close soon. To receive a "
-"grade, first provide a response to the prompt, then complete the steps below "
-"the %(start_tag)sYour Response%(end_tag)s field.\n"
+"                    Assignment submissions will close soon. To receive a grade, first provide a response to the prompt, then complete the steps below the %(start_tag)sYour Response%(end_tag)s field.\n"
 "                "
 msgstr ""
 
@@ -1152,9 +1145,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                    This assignment has several steps. In the first step, "
-"you'll provide a response to the prompt. The other steps appear below the "
-"%(start_tag)sYour Response%(end_tag)s field.\n"
+"                    This assignment has several steps. In the first step, you'll provide a response to the prompt. The other steps appear below the %(start_tag)sYour Response%(end_tag)s field.\n"
 "                "
 msgstr ""
 
@@ -1169,7 +1160,8 @@ msgstr ""
 #: templates/legacy/oa_base.html:16 templates/openassessmentblock/base.html:22
 msgid ""
 "This assignment has several steps. In the first step, you'll provide a "
-"response to the prompt. The other steps appear below the Your Response field."
+"response to the prompt. The other steps appear below the Your Response "
+"field."
 msgstr ""
 
 #: templates/legacy/oa_base.html:37 templates/openassessmentblock/base.html:56
@@ -1220,32 +1212,33 @@ msgid ""
 "been verified, screened, approved, reviewed, or endorsed by the site "
 "administrator. If you access the files, you do so at your own risk.)"
 msgstr ""
+"Caution: These files were uploaded by another module learner and have not "
+"been verified, screened, approved, reviewed, or endorsed by the site "
+"administrator. If you access the files, you do so at your own risk.)"
 
 #: templates/legacy/peer/oa_peer_assessment.html:36
 msgid "Assess Peers"
 msgstr ""
 
-#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "available August 13th, 2014 00:00 UTC (in 5 days and 45 minutes)"
+#. Translators: This string displays a date to the user, then tells them the
+#. time until that date.  Example: "available August 13th, 2014 00:00 UTC (in
+#. 5 days and 45 minutes)"
 #: templates/legacy/peer/oa_peer_assessment.html:44
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" "
-"data-datetime=\"%(start_date)s\" data-string=\"available {date} (in "
-"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
 
-#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "due August 13th, 2014 00:00 UTC (in 5 days and 45 minutes)"
+#. Translators: This string displays a date to the user, then tells them the
+#. time until that date.  Example: "due August 13th, 2014 00:00 UTC (in 5 days
+#. and 45 minutes)"
 #: templates/legacy/peer/oa_peer_assessment.html:51
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" "
-"data-datetime=\"%(due_date)s\" data-string=\"due {date} (in "
-"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
 
@@ -1356,35 +1349,33 @@ msgstr ""
 msgid ""
 "All available peer responses have been assessed. Check back later to see if "
 "more learners have submitted responses. You will receive your grade after "
-"you've completed all the steps for this problem and your peers have assessed "
-"your response."
+"you've completed all the steps for this problem and your peers have assessed"
+" your response."
 msgstr ""
 
 #: templates/legacy/response/oa_response.html:27
 msgid "Your Team's Response"
 msgstr ""
 
-#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "available August 13th, 2014 (in 5 days and 45 minutes)"
+#. Translators: This string displays a date to the user, then tells them the
+#. time until that date.  Example: "available August 13th, 2014 (in 5 days and
+#. 45 minutes)"
 #: templates/legacy/response/oa_response.html:39
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"            <span id=\"oa_step_deadline_response\" class=\"date ora-"
-"datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} "
-"(in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
 
-#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "due August 13th, 2014 (in 5 days and 45 minutes)"
+#. Translators: This string displays a date to the user, then tells them the
+#. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45
+#. minutes)"
 #: templates/legacy/response/oa_response.html:46
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"            <span id=\"oa_step_deadline_response\" class=\"date ora-"
-"datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in "
-"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
 
@@ -1400,16 +1391,14 @@ msgstr ""
 #: templates/legacy/response/oa_response.html:68
 msgid ""
 "\n"
-"                        Your work will save automatically and you can return "
-"to complete your team's response at any time before the due date\n"
+"                        Your work will save automatically and you can return to complete your team's response at any time before the due date\n"
 "                      "
 msgstr ""
 
 #: templates/legacy/response/oa_response.html:81
 msgid ""
 "\n"
-"                        Your work will save automatically and you can return "
-"to complete your team's response at any time.\n"
+"                        Your work will save automatically and you can return to complete your team's response at any time.\n"
 "                      "
 msgstr ""
 
@@ -1433,6 +1422,8 @@ msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time before the course ends "
 msgstr ""
+"Your work will save automatically and you can return to complete your "
+"response at any time before the module ends "
 
 #: templates/legacy/response/oa_response.html:96
 msgid ""
@@ -1471,10 +1462,8 @@ msgstr ""
 msgid ""
 "\n"
 "                                              %(team_members_with_external_submissions)s\n"
-"                                              have/has already submitted a "
-"response to this assignment with another team,\n"
-"                                              and will not be a part of your "
-"team's submission or assignment grade.\n"
+"                                              have/has already submitted a response to this assignment with another team,\n"
+"                                              and will not be a part of your team's submission or assignment grade.\n"
 "                                          "
 msgstr ""
 
@@ -1499,14 +1488,10 @@ msgstr ""
 #: templates/legacy/response/oa_response.html:183
 msgid ""
 "\n"
-"                                              Teams should designate one "
-"team member to submit a response on behalf of the\n"
-"                                              entire team.  All team members "
-"can use this space to work on draft responses,\n"
-"                                              but you will not be able to "
-"see your teammates' drafts made in this space, so\n"
-"                                              please coordinate with them to "
-"decide on the final response the designated team\n"
+"                                              Teams should designate one team member to submit a response on behalf of the\n"
+"                                              entire team.  All team members can use this space to work on draft responses,\n"
+"                                              but you will not be able to see your teammates' drafts made in this space, so\n"
+"                                              please coordinate with them to decide on the final response the designated team\n"
 "                                              member should submit.\n"
 "                                          "
 msgstr ""
@@ -1519,14 +1504,10 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                                      You are currently on Team "
-"%(team_name)s. Since you were on Team %(previous_team_name)s\n"
-"                                      when they submitted a response to this "
-"assignment, you are seeing Team %(previous_team_name)s’s\n"
-"                                      response and will receive the same "
-"grade for this assignment as your former teammates.\n"
-"                                      You will not be part of Team "
-"%(team_name)s’s submission for this assignment and will not\n"
+"                                      You are currently on Team %(team_name)s. Since you were on Team %(previous_team_name)s\n"
+"                                      when they submitted a response to this assignment, you are seeing Team %(previous_team_name)s’s\n"
+"                                      response and will receive the same grade for this assignment as your former teammates.\n"
+"                                      You will not be part of Team %(team_name)s’s submission for this assignment and will not\n"
 "                                      receive a grade for their submission.\n"
 "                                  "
 msgstr ""
@@ -1546,10 +1527,8 @@ msgstr ""
 #: templates/legacy/response/oa_response.html:253
 msgid ""
 "\n"
-"                                  Upload files and review files uploaded by "
-"you and your teammates below. Be sure to add\n"
-"                                  descriptions to your files to help your "
-"teammates identify them.\n"
+"                                  Upload files and review files uploaded by you and your teammates below. Be sure to add\n"
+"                                  descriptions to your files to help your teammates identify them.\n"
 "                              "
 msgstr ""
 
@@ -1609,10 +1588,7 @@ msgstr ""
 #: templates/legacy/response/oa_response.html:314
 msgid ""
 "\n"
-"                  Learn more about team assignments here: (<a "
-"target=\"_blank\" href=\"https://support.edx.org/hc/en-us/"
-"articles/360000191067-Submit-your-"
-"response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">link</a>)\n"
+"                  Learn more about team assignments here: (<a target=\"_blank\" href=\"https://support.edx.org/hc/en-us/articles/360000191067-Submit-your-response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">link</a>)\n"
 "                  "
 msgstr ""
 
@@ -1632,8 +1608,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                                Your submission has been cancelled by "
-"%(removed_by_username)s on %(removed_datetime)s\n"
+"                                Your submission has been cancelled by %(removed_by_username)s on %(removed_datetime)s\n"
 "                            "
 msgstr ""
 
@@ -1641,8 +1616,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                               Your submission was cancelled on "
-"%(removed_datetime)s\n"
+"                               Your submission was cancelled on %(removed_datetime)s\n"
 "                            "
 msgstr ""
 
@@ -1663,10 +1637,14 @@ msgstr ""
 #: templates/legacy/response/oa_response_closed.html:32
 msgid ""
 "The due date for this step has passed. This step is now closed. You can no "
-"longer submit a response or continue with this problem, and you will receive "
-"a grade of Incomplete. If you saved but did not submit a response, the "
+"longer submit a response or continue with this problem, and you will receive"
+" a grade of Incomplete. If you saved but did not submit a response, the "
 "response appears in the course records."
 msgstr ""
+"The due date for this step has passed. This step is now closed. You can no "
+"longer submit a response or continue with this problem, and you will receive"
+" a grade of Incomplete. If you saved but did not submit a response, the "
+"response appears in the module records."
 
 #: templates/legacy/response/oa_response_graded.html:20
 #: templates/legacy/response/oa_response_submitted.html:20
@@ -1696,9 +1674,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                        You still need to complete the "
-"%(peer_start_tag)speer assessment%(end_tag)s and %(self_start_tag)sself "
-"assessment%(end_tag)s steps.\n"
+"                        You still need to complete the %(peer_start_tag)speer assessment%(end_tag)s and %(self_start_tag)sself assessment%(end_tag)s steps.\n"
 "                    "
 msgstr ""
 
@@ -1706,8 +1682,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                        You still need to complete the %(start_tag)speer "
-"assessment%(end_tag)s step.\n"
+"                        You still need to complete the %(start_tag)speer assessment%(end_tag)s step.\n"
 "                    "
 msgstr ""
 
@@ -1715,8 +1690,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                        You still need to complete the %(start_tag)sself "
-"assessment%(end_tag)s step.\n"
+"                        You still need to complete the %(start_tag)sself assessment%(end_tag)s step.\n"
 "                    "
 msgstr ""
 
@@ -1736,41 +1710,42 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                            You joined Team %(team_name)s after they "
-"submitted a response for this assignment\n"
-"                            and you will not receive a grade for their "
-"response. You have also not previously submitted\n"
-"                            a response to this assignment with another team. "
-"Please contact course staff to discuss your\n"
+"                            You joined Team %(team_name)s after they submitted a response for this assignment\n"
+"                            and you will not receive a grade for their response. You have also not previously submitted\n"
+"                            a response to this assignment with another team. Please contact course staff to discuss your\n"
 "                            options for this assignment.\n"
 "                        "
 msgstr ""
+"\n"
+"                            You joined Team %(team_name)s after they submitted a response for this assignment\n"
+"                            and you will not receive a grade for their response. You have also not previously submitted\n"
+"                            a response to this assignment with another team. Please contact module staff to discuss your\n"
+"                            options for this assignment.\n"
+"                        "
 
 #: templates/legacy/self/oa_self_assessment.html:33
 msgid "Assess Your Response"
 msgstr ""
 
-#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "available August 13th, 2014 (in 5 days and 45 minutes)"
+#. Translators: This string displays a date to the user, then tells them the
+#. time until that date.  Example: "available August 13th, 2014 (in 5 days and
+#. 45 minutes)"
 #: templates/legacy/self/oa_self_assessment.html:41
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"               <span id=\"oa_step_deadline_self\" class=\"date ora-"
-"datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} "
-"(in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "           "
 msgstr ""
 
-#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "due August 13th, 2014 (in 5 days and 45 minutes)"
+#. Translators: This string displays a date to the user, then tells them the
+#. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45
+#. minutes)"
 #: templates/legacy/self/oa_self_assessment.html:48
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"               <span id=\"oa_step_deadline_self\" class=\"date ora-"
-"datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in "
-"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "           "
 msgstr ""
 
@@ -1883,8 +1858,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                                        Response for: %(team_name)s with "
-"%(team_usernames)s\n"
+"                                        Response for: %(team_name)s with %(team_usernames)s\n"
 "                                    "
 msgstr ""
 
@@ -1974,8 +1948,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                            Learner submission removed by "
-"%(removed_by_username)s on %(removed_datetime)s\n"
+"                            Learner submission removed by %(removed_by_username)s on %(removed_datetime)s\n"
 "                        "
 msgstr ""
 
@@ -1983,8 +1956,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                            Learner submission removed on "
-"%(removed_datetime)s\n"
+"                            Learner submission removed on %(removed_datetime)s\n"
 "                        "
 msgstr ""
 
@@ -2028,8 +2000,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                            Final grade: %(points_earned)s out of "
-"%(points_possible)s\n"
+"                            Final grade: %(points_earned)s out of %(points_possible)s\n"
 "                        "
 msgstr ""
 
@@ -2041,13 +2012,11 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                                        %(assessment_label)s - %(points)s "
-"point\n"
+"                                        %(assessment_label)s - %(points)s point\n"
 "                                    "
 msgid_plural ""
 "\n"
-"                                        %(assessment_label)s - %(points)s "
-"points\n"
+"                                        %(assessment_label)s - %(points)s points\n"
 "                                    "
 msgstr[0] ""
 msgstr[1] ""
@@ -2070,8 +2039,8 @@ msgstr ""
 #: templates/legacy/staff_area/oa_student_info.html:172
 msgid ""
 "The team’s submission has been removed from grading. The team receives a "
-"grade of zero unless you delete the a team member’s state for the problem to "
-"allow the team to resubmit a response."
+"grade of zero unless you delete the a team member’s state for the problem to"
+" allow the team to resubmit a response."
 msgstr ""
 
 #: templates/legacy/staff_area/oa_student_info.html:177
@@ -2099,6 +2068,8 @@ msgid ""
 "Grades are frozen. Grades are automatically frozen 30 days after the course "
 "end date."
 msgstr ""
+"Grades are frozen. Grades are automatically frozen 30 days after the module "
+"end date."
 
 #: templates/legacy/staff_area/oa_student_info.html:212
 msgid ""
@@ -2175,32 +2146,29 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                      In Progress (%(current_progress_num)s of "
-"%(training_available_num)s)\n"
+"                      In Progress (%(current_progress_num)s of %(training_available_num)s)\n"
 "                  "
 msgstr ""
 
-#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "available August 13th, 2014 (in 5 days and 45 minutes)"
+#. Translators: This string displays a date to the user, then tells them the
+#. time until that date.  Example: "available August 13th, 2014 (in 5 days and
+#. 45 minutes)"
 #: templates/legacy/student_training/student_training.html:38
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-"
-"datetime=\"%(start_date)s\" data-string=\"available {date} (in "
-"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
 
-#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "due August 13th, 2014 (in 5 days and 45 minutes)"
+#. Translators: This string displays a date to the user, then tells them the
+#. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45
+#. minutes)"
 #: templates/legacy/student_training/student_training.html:45
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-"
-"datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" "
-"data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></"
-"span>\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
 
@@ -2242,7 +2210,8 @@ msgid "Selected Options Differ"
 msgstr ""
 
 #: templates/legacy/student_training/student_training.html:108
-msgid "The option you selected is not the option that the instructor selected."
+msgid ""
+"The option you selected is not the option that the instructor selected."
 msgstr ""
 
 #: templates/legacy/student_training/student_training.html:144
@@ -2340,14 +2309,14 @@ msgstr ""
 #: xblock/grade_mixin.py:687
 #, python-brace-format
 msgid ""
-"You have successfully completed this problem and received a {earned_points}/"
-"{total_points}."
+"You have successfully completed this problem and received a "
+"{earned_points}/{total_points}."
 msgstr ""
 
 #: xblock/grade_mixin.py:695
 msgid ""
-"You have not yet received all necessary peer reviews to determine your final "
-"grade."
+"You have not yet received all necessary peer reviews to determine your final"
+" grade."
 msgstr ""
 
 #: xblock/grade_mixin.py:710
@@ -2411,6 +2380,7 @@ msgstr ""
 msgid ""
 "No Open Response Assessment found in {course_id} with block id {block_id}"
 msgstr ""
+"No Open Response Assessment found in {course_id} with block id {block_id}"
 
 #: xblock/staff_area_mixin.py:42
 msgid "You do not have permission to schedule training"
@@ -2577,8 +2547,7 @@ msgid "The assessment order you selected is invalid."
 msgstr ""
 
 #: xblock/utils/validation.py:134
-msgid ""
-"In peer assessment, the \"Must Grade\" value must be a positive integer."
+msgid "In peer assessment, the \"Must Grade\" value must be a positive integer."
 msgstr ""
 
 #: xblock/utils/validation.py:137
@@ -2600,8 +2569,7 @@ msgid "Each example response for learner training must be unique."
 msgstr ""
 
 #: xblock/utils/validation.py:160
-msgid ""
-"The \"required\" value must be true if staff assessment is the only step."
+msgid "The \"required\" value must be true if staff assessment is the only step."
 msgstr ""
 
 #: xblock/utils/validation.py:164

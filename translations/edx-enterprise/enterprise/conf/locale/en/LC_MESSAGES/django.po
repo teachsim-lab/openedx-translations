@@ -22,6 +22,8 @@ msgid ""
 "Preview the data sharing consent page rendered in the context of a course "
 "enrollment."
 msgstr ""
+"Preview the data sharing consent page rendered in the context of a module "
+"enrollment."
 
 #: consent/admin/__init__.py:110
 msgid ""
@@ -31,7 +33,7 @@ msgstr ""
 
 #: consent/admin/__init__.py:119 enterprise/admin/__init__.py:720
 msgid "Preview (course)"
-msgstr ""
+msgstr "Preview (module)"
 
 #: consent/admin/__init__.py:120 enterprise/admin/__init__.py:733
 msgid "Preview (program)"
@@ -55,7 +57,7 @@ msgstr ""
 
 #: consent/models.py:252
 msgid "Course key for which data sharing consent is granted."
-msgstr ""
+msgstr "Module key for which data sharing consent is granted."
 
 #: consent/models.py:266
 msgid "Data sharing consent text overrides"
@@ -71,6 +73,13 @@ msgid ""
 "consent is course.</li><li>course_start_date: Course start date. Available "
 "when type of consent is course.</li></ul>"
 msgstr ""
+"Fill in a text for first paragraph of page. The following variables may be "
+"available:<br /><ul><li>enterprise_customer_name: A name of enterprise "
+"customer.</li><li>platform_name: Name of platform.</li><li>item: A string "
+"which is \"module\" or \"program\" depending on the type of "
+"consent.</li><li>module_title: Title of module. Available when type of "
+"consent is module.</li><li>module_start_date: Module start date. Available "
+"when type of consent is module.</li></ul>"
 
 #: consent/models.py:279
 msgid ""
@@ -82,6 +91,13 @@ msgid ""
 "consent is course.</li><li>course_start_date: Course start date. Available "
 "when type of consent is course.</li></ul>"
 msgstr ""
+"Fill in a text for policy paragraph at the bottom of page. The following "
+"variables may be available:<br /><ul><li>enterprise_customer_name: A name of"
+" enterprise customer.</li><li>platform_name: Name of platform.</li><li>item:"
+" A string which is \"module\" or \"program\" depending on the type of "
+"consent.</li><li>module_title: Title of module. Available when type of "
+"consent is module.</li><li>module_start_date: Module start date. Available "
+"when type of consent is module.</li></ul>"
 
 #: consent/models.py:289
 msgid ""
@@ -93,6 +109,13 @@ msgid ""
 "consent is course.</li><li>course_start_date: Course start date. Available "
 "when type of consent is course.</li></ul>"
 msgstr ""
+"Fill in a text for left sidebar paragraph. The following variables may be "
+"available:<br /><ul><li>enterprise_customer_name: A name of enterprise "
+"customer.</li><li>platform_name: Name of platform.</li><li>item: A string "
+"which is \"module\" or \"program\" depending on the type of "
+"consent.</li><li>module_title: Title of module. Available when type of "
+"consent is module.</li><li>module_start_date: Module start date. Available "
+"when type of consent is module.</li></ul>"
 
 #: consent/models.py:299
 msgid ""
@@ -104,6 +127,13 @@ msgid ""
 "Available when type of consent is course.</li><li>course_start_date: Course "
 "start date. Available when type of consent is course.</li></ul>"
 msgstr ""
+"Fill in a text for dialog which appears when user decline to provide "
+"consent. The following variables may be available:<br "
+"/><ul><li>enterprise_customer_name: A name of enterprise "
+"customer.</li><li>item: A string which is \"module\" or \"program\" "
+"depending on the type of consent.</li><li>module_title: Title of module. "
+"Available when type of consent is module.</li><li>module_start_date: Module "
+"start date. Available when type of consent is module.</li></ul>"
 
 #: consent/models.py:309
 msgid ""
@@ -113,6 +143,11 @@ msgid ""
 "customer.</li><li>course_title: Title of course. Available when type of "
 "consent is course.</li></ul>"
 msgstr ""
+"Fill in a text for title of the notification which appears on dashboard when"
+" user decline to provide consent. The following variables may be "
+"available:<br /><ul><li>enterprise_customer_name: A name of enterprise "
+"customer.</li><li>module_title: Title of module. Available when type of "
+"consent is module.</li></ul>"
 
 #: consent/models.py:318
 msgid ""
@@ -122,6 +157,11 @@ msgid ""
 "customer.</li><li>course_title: Title of course. Available when type of "
 "consent is course.</li></ul>"
 msgstr ""
+"Fill in a text for message of the notification which appears on dashboard "
+"when user decline to provide consent. The following variables may be "
+"available:<br /><ul><li>enterprise_customer_name: A name of enterprise "
+"customer.</li><li>module_title: Title of module. Available when type of "
+"consent is module.</li></ul>"
 
 #: consent/models.py:329
 msgid "Title of page"
@@ -166,6 +206,8 @@ msgid ""
 "Account number to use during api calls. Called account_id in canvas.  "
 "Required to create courses etc."
 msgstr ""
+"Account number to use during api calls. Called account_id in canvas.  "
+"Required to create modules etc."
 
 #: integrated_channels/canvas/models.py:121
 msgid ""
@@ -251,11 +293,11 @@ msgstr ""
 
 #: integrated_channels/cornerstone/models.py:306
 msgid "This is the edX course key that is used as a unique identifier."
-msgstr ""
+msgstr "This is the edX module key that is used as a unique identifier."
 
 #: integrated_channels/cornerstone/models.py:313
 msgid "This is the course key that is being sent to our partners."
-msgstr ""
+msgstr "This is the module key that is being sent to our partners."
 
 #: integrated_channels/integrated_channel/management/commands/__init__.py:67
 msgid ""
@@ -322,6 +364,9 @@ msgid ""
 "    Transmit Enterprise learner course completion data for the given EnterpriseCustomer.\n"
 "    "
 msgstr ""
+"\n"
+"    Transmit Enterprise learner module completion data for the given EnterpriseCustomer.\n"
+"    "
 
 #: integrated_channels/integrated_channel/management/commands/remove_stale_integrated_channel_api_logs.py:22
 msgid ""
@@ -376,7 +421,7 @@ msgstr ""
 
 #: integrated_channels/integrated_channel/models.py:150
 msgid "Displays course price"
-msgstr ""
+msgstr "Displays module price"
 
 #: integrated_channels/integrated_channel/models.py:162
 msgid ""
@@ -391,6 +436,10 @@ msgid ""
 "customer catalogs, the overlapping course metadata will be selected from the"
 " newest catalog."
 msgstr ""
+"A comma-separated list of catalog UUIDs to transmit. If blank, all customer "
+"catalogs will be transmitted. If there are overlapping modules in the "
+"customer catalogs, the overlapping module metadata will be selected from the"
+" newest catalog."
 
 #: integrated_channels/integrated_channel/models.py:176
 msgid ""
@@ -421,7 +470,7 @@ msgstr ""
 
 #: integrated_channels/moodle/models.py:55
 msgid "The category ID for what edX courses should be associated with."
-msgstr ""
+msgstr "The category ID for what edX modules should be associated with."
 
 #: integrated_channels/moodle/models.py:64
 msgid ""
@@ -443,7 +492,7 @@ msgstr ""
 
 #: integrated_channels/moodle/models.py:169
 msgid "The maximum grade points for the courses. Default: 100"
-msgstr ""
+msgstr "The maximum grade points for the modules. Default: 100"
 
 #: integrated_channels/moodle/models.py:177
 msgid "The name for the grade assigment created for the grade integration."
@@ -454,6 +503,8 @@ msgid ""
 "When set to True, the configured customer will receive learner data "
 "transmissions, for incomplete courses as well"
 msgstr ""
+"When set to True, the configured customer will receive learner data "
+"transmissions, for incomplete modules as well"
 
 #: integrated_channels/sap_success_factors/exporters/content_metadata.py:223
 #: integrated_channels/sap_success_factors/exporters/content_metadata.py:298
@@ -515,6 +566,9 @@ msgid ""
 "('sapsf_user_id') defined in the SAP Customer Configuration for course "
 "completion."
 msgstr ""
+"When set to True, the integration will use the generic edX service user "
+"('sapsf_user_id') defined in the SAP Customer Configuration for module "
+"completion."
 
 #: integrated_channels/xapi/models.py:33
 msgid "Version of xAPI."
@@ -536,6 +590,7 @@ msgstr ""
 msgid ""
 "Preview the HTML template rendered in the context of a course enrollment."
 msgstr ""
+"Preview the HTML template rendered in the context of a module enrollment."
 
 #: enterprise/admin/__init__.py:724
 msgid ""
@@ -559,18 +614,22 @@ msgid ""
 "column of course run keys, indicated by the heading 'course_id' in the first"
 " row, to enroll learners in multiple courses."
 msgstr ""
+"The .csv file must have a column of email addresses, indicated by the "
+"heading 'email' in the first row. Optionally, the .csv file may contain a "
+"column of module run keys, indicated by the heading 'module_id' in the first"
+" row, to enroll learners in multiple modules."
 
 #: enterprise/admin/forms.py:68
 msgid "Enroll these learners in this course"
-msgstr ""
+msgstr "Enroll these learners in this module"
 
 #: enterprise/admin/forms.py:69
 msgid "To enroll learners in a course, enter a course ID."
-msgstr ""
+msgstr "To enroll learners in a module, enter a module ID."
 
 #: enterprise/admin/forms.py:72
 msgid "Course enrollment track"
-msgstr ""
+msgstr "Module enrollment track"
 
 #: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1627
 msgid "Audit"
@@ -638,11 +697,11 @@ msgstr ""
 
 #: enterprise/admin/forms.py:315
 msgid "Course"
-msgstr ""
+msgstr "Module"
 
 #: enterprise/admin/forms.py:316
 msgid "Enter the course run key."
-msgstr ""
+msgstr "Enter the module run key."
 
 #: enterprise/admin/forms.py:436
 msgid "Preview"
@@ -835,6 +894,8 @@ msgid ""
 "[Enterprise API] CourseKey not found in the Catalog. Course: {course_key}, "
 "Catalog: {catalog_id}"
 msgstr ""
+"[Enterprise API] ModuleKey not found in the Catalog. Module: {course_key}, "
+"Catalog: {catalog_id}"
 
 #: enterprise/api/v1/views/enterprise_customer_catalog.py:217
 #, python-brace-format
@@ -842,6 +903,8 @@ msgid ""
 "[Enterprise API] CourseRun not found in the Catalog. CourseRun: {course_id},"
 " Catalog: {catalog_id}"
 msgstr ""
+"[Enterprise API] ModuleRun not found in the Catalog. ModuleRun: {course_id},"
+" Catalog: {catalog_id}"
 
 #: enterprise/api/v1/views/enterprise_customer_catalog.py:245
 #, python-brace-format
@@ -913,6 +976,9 @@ msgid ""
 " you must first consent to share your learning achievements with "
 "{enterprise_customer_name}."
 msgstr ""
+"To log in using this SSO identity provider and access special module offers,"
+" you must first consent to share your learning achievements with "
+"{enterprise_customer_name}."
 
 #: enterprise/constants.py:18
 #, python-brace-format
@@ -920,6 +986,8 @@ msgid ""
 "In order to sign in and access special offers, you must consent to share "
 "your course data with {enterprise_customer_name}."
 msgstr ""
+"In order to sign in and access special offers, you must consent to share "
+"your module data with {enterprise_customer_name}."
 
 #: enterprise/constants.py:22
 #, python-brace-format
@@ -927,6 +995,8 @@ msgid ""
 "If you do not consent to share your course data, that information may be "
 "shared with {enterprise_customer_name}."
 msgstr ""
+"If you do not consent to share your module data, that information may be "
+"shared with {enterprise_customer_name}."
 
 #: enterprise/constants.py:25
 #, python-brace-format
@@ -952,6 +1022,10 @@ msgid ""
 "eligible, provide in-demand knowledge and may be applied to accelerate a "
 "Master’s Degree."
 msgstr ""
+"A series of Master’s-level modules to advance your career, created by top "
+"universities and recognized by companies. MicroMasters Programs are credit-"
+"eligible, provide in-demand knowledge and may be applied to accelerate a "
+"Master’s Degree."
 
 #: enterprise/constants.py:92
 msgid ""
@@ -968,6 +1042,10 @@ msgid ""
 "courses. Complete the series to earn a valuable XSeries Certificate that "
 "illustrates your achievement."
 msgstr ""
+"Created by world-renowned experts and top universities, XSeries are designed"
+" to provide a deep understanding of key subjects through a series of "
+"modules. Complete the series to earn a valuable XSeries Certificate that "
+"illustrates your achievement."
 
 #: enterprise/forms.py:15
 msgid ""
@@ -975,6 +1053,9 @@ msgid ""
 "will use to sign up for courses. If you want to change organizations, sign "
 "out and sign back in."
 msgstr ""
+"You have access to multiple organizations. Select the organization that you "
+"will use to sign up for modules. If you want to change organizations, sign "
+"out and sign back in."
 
 #: enterprise/forms.py:18
 msgid "Enter the organization name"
@@ -1077,7 +1158,7 @@ msgstr ""
 
 #: enterprise/models.py:243
 msgid "Hides course price on learning platform course confirmation screen."
-msgstr ""
+msgstr "Hides module price on learning platform module confirmation screen."
 
 #: enterprise/models.py:266
 msgid ""
@@ -1085,12 +1166,17 @@ msgid ""
 "course. If left unchecked, the prompt will not appear and relevant data will"
 " not be shared."
 msgstr ""
+"Enables data sharing consent prompt for learners each time they enroll in a "
+"module. If left unchecked, the prompt will not appear and relevant data will"
+" not be shared."
 
 #: enterprise/models.py:278
 msgid ""
 "Setting to either require learners to accept data sharing consent at course "
 "enrollment, or through an external process."
 msgstr ""
+"Setting to either require learners to accept data sharing consent at module "
+"enrollment, or through an external process."
 
 #: enterprise/models.py:287
 msgid ""
@@ -1165,6 +1251,8 @@ msgid ""
 "Automatically enabled. If unchecked, the learners won't be able to search "
 "for a course on the learner portal."
 msgstr ""
+"Automatically enabled. If unchecked, the learners won't be able to search "
+"for a module on the learner portal."
 
 #: enterprise/models.py:401
 msgid ""
@@ -1270,6 +1358,9 @@ msgid ""
 "returned nothing. Proceeding with enrollment, but notifications won't be "
 "sent"
 msgstr ""
+"Module details were not found for module key {} - Module Catalog API "
+"returned nothing. Proceeding with enrollment, but notifications won't be "
+"sent"
 
 #: enterprise/models.py:1096
 msgid ""
@@ -1305,6 +1396,7 @@ msgstr ""
 msgid ""
 "The UUID of the course (not course run) in which the learner is entitled."
 msgstr ""
+"The UUID of the module (not module run) in which the learner is entitled."
 
 #: enterprise/models.py:1921
 msgid "The enterprise learner to which this entitlement is attached."
@@ -1316,33 +1408,39 @@ msgstr ""
 
 #: enterprise/models.py:2051
 msgid "The ID of the course in which the learner was enrolled."
-msgstr ""
+msgstr "The ID of the module in which the learner was enrolled."
 
 #: enterprise/models.py:2058
 msgid ""
 "Specifies whether a user marked this course as saved for later in the "
 "learner portal."
 msgstr ""
+"Specifies whether a user marked this module as saved for later in the "
+"learner portal."
 
 #: enterprise/models.py:2074
 msgid ""
 "Specifies whether the enterprise course enrollment's course enrollment "
 "object was unenrolled."
 msgstr ""
+"Specifies whether the enterprise module enrollment's module enrollment "
+"object was unenrolled."
 
 #: enterprise/models.py:2084
 msgid ""
 "Specifies when an enterprise course enrollment's course enrollment object "
 "was unenrolled."
 msgstr ""
+"Specifies when an enterprise module enrollment's module enrollment object "
+"was unenrolled."
 
 #: enterprise/models.py:2342
 msgid "The course entitlement the associated subsidy is for."
-msgstr ""
+msgstr "The module entitlement the associated subsidy is for."
 
 #: enterprise/models.py:2353
 msgid "The course enrollment the associated subsidy is for."
-msgstr ""
+msgstr "The module enrollment the associated subsidy is for."
 
 #: enterprise/models.py:2360
 msgid ""
@@ -1356,13 +1454,15 @@ msgstr ""
 
 #: enterprise/models.py:2530
 msgid "The type of content (e.g. a course vs. a course run)."
-msgstr ""
+msgstr "The type of content (e.g. a module vs. a module run)."
 
 #: enterprise/models.py:2538
 msgid ""
 "A course or course run that related users should be automatically enrolled "
 "into."
 msgstr ""
+"A module or module run that related users should be automatically enrolled "
+"into."
 
 #: enterprise/models.py:2710
 #, python-brace-format
@@ -1374,7 +1474,7 @@ msgstr ""
 
 #: enterprise/models.py:2725
 msgid "The content key did not resolve to a valid course run."
-msgstr ""
+msgstr "The content key did not resolve to a valid module run."
 
 #: enterprise/models.py:2793
 msgid ""
@@ -1391,6 +1491,10 @@ msgid ""
 "types should be included in the catalog, executive-education-2u course types"
 " won't be excluded from the content of the associated catalog."
 msgstr ""
+"Specifies whether the catalog is allowed to include exec ed (2U) modules.  "
+"This means that, when the content_filter specifies that 'module' content "
+"types should be included in the catalog, executive-education-2u module types"
+" won't be excluded from the content of the associated catalog."
 
 #: enterprise/models.py:2815
 msgid "Enterprise Catalog Query"
@@ -1413,12 +1517,16 @@ msgid ""
 "Ordered list of enrollment modes which can be displayed to learners for "
 "course runs in this catalog."
 msgstr ""
+"Ordered list of enrollment modes which can be displayed to learners for "
+"module runs in this catalog."
 
 #: enterprise/models.py:2943
 msgid ""
 "Specifies whether courses should be published with direct-to-audit "
 "enrollment URLs."
 msgstr ""
+"Specifies whether modules should be published with direct-to-audit "
+"enrollment URLs."
 
 #: enterprise/models.py:2950
 msgid "Enterprise Customer Catalog"
@@ -1433,6 +1541,8 @@ msgid ""
 "Fill in a standard Django template that, when rendered, produces the email you want sent to newly-enrolled Enterprise Customer learners. The following variables may be available:\n"
 "<ul><li>user_name: A human-readable name for the person being emailed. Be sure to handle the case where this is not defined, as it may be missing in some cases. It may also be a username, if the learner hasn't configured their \"real\" name in the system.</li>    <li>organization_name: The name of the organization sponsoring the enrollment.</li>    <li>enrolled_in: Details of the course or program that was enrolled in. It may contain:    <ul><li>name: The name of the enrollable item (e.g., \"Demo Course\").</li>        <li>url: A link to the homepage of the enrolled-in item.</li>        <li>branding: A custom branding name for the enrolled-in item. For example, the branding of a MicroMasters program would be \"MicroMasters\".</li>     <li>start: The date the enrolled-in item becomes available. Render this to text using the Django `date` template filter (see <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">the Django documentation</a>).</li><li>type: Whether the enrolled-in item is a course, a program, or something else.</li></ul></ul>"
 msgstr ""
+"Fill in a standard Django template that, when rendered, produces the email you want sent to newly-enrolled Enterprise Customer learners. The following variables may be available:\n"
+"<ul><li>user_name: A human-readable name for the person being emailed. Be sure to handle the case where this is not defined, as it may be missing in some cases. It may also be a username, if the learner hasn't configured their \"real\" name in the system.</li>    <li>organization_name: The name of the organization sponsoring the enrollment.</li>    <li>enrolled_in: Details of the module or program that was enrolled in. It may contain:    <ul><li>name: The name of the enrollable item (e.g., \"Demo Module\").</li>        <li>url: A link to the homepage of the enrolled-in item.</li>        <li>branding: A custom branding name for the enrolled-in item. For example, the branding of a MicroMasters program would be \"MicroMasters\".</li>     <li>start: The date the enrolled-in item becomes available. Render this to text using the Django `date` template filter (see <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">the Django documentation</a>).</li><li>type: Whether the enrolled-in item is a module, a program, or something else.</li></ul></ul>"
 
 #: enterprise/models.py:3236
 #, python-brace-format
@@ -1441,6 +1551,9 @@ msgid ""
 "notification emails. The placeholder {course_name} will be replaced with the"
 " name of the course or program that was enrolled in."
 msgstr ""
+"Enter a string that can be used to generate a dynamic subject line for "
+"notification emails. The placeholder {course_name} will be replaced with the"
+" name of the module or program that was enrolled in."
 
 #: enterprise/models.py:3378
 msgid "Active"
@@ -1953,7 +2066,7 @@ msgstr ""
 #: enterprise/templates/enterprise/admin/transmit_courses_metadata.html:33
 #: enterprise/templates/enterprise/admin/transmit_courses_metadata.html:40
 msgid "Transmit Courses Metadata"
-msgstr ""
+msgstr "Transmit Modules Metadata"
 
 #: enterprise/templates/enterprise/enterprise_customer_login_page.html:44
 #: enterprise/templates/enterprise/enterprise_customer_select_form.html:50
@@ -1976,10 +2089,11 @@ msgstr ""
 msgid ""
 "Enrollment track {course_mode} is not available for course {course_id}."
 msgstr ""
+"Enrollment track {course_mode} is not available for module {course_id}."
 
 #: enterprise/utils.py:155
 msgid "Select a course enrollment track for the given course(s)."
-msgstr ""
+msgstr "Select a module enrollment track for the given module(s)."
 
 #: enterprise/utils.py:157
 #, python-brace-format
@@ -1987,12 +2101,16 @@ msgid ""
 "Could not retrieve details for the course ID {course_id}. Specify a valid "
 "ID."
 msgstr ""
+"Could not retrieve details for the module ID {course_id}. Specify a valid "
+"ID."
 
 #: enterprise/utils.py:160
 msgid ""
 "Either \"CSV bulk upload\" or a singular course ID may be used for manual "
 "enrollments, but not both together."
 msgstr ""
+"Either \"CSV bulk upload\" or a singular module ID may be used for manual "
+"enrollments, but not both together."
 
 #: enterprise/utils.py:164
 #, python-brace-format
@@ -2041,7 +2159,7 @@ msgstr ""
 #: enterprise/utils.py:183
 #, python-brace-format
 msgid "Course ID {course_id} doesn't exist in Enterprise Customer's Catalog"
-msgstr ""
+msgstr "Module ID {course_id} doesn't exist in Enterprise Customer's Catalog"
 
 #: enterprise/utils.py:185
 #, python-brace-format
@@ -2062,7 +2180,7 @@ msgstr ""
 #: enterprise/utils.py:401
 #, python-brace-format
 msgid "You've been enrolled in {course_name}!"
-msgstr ""
+msgstr "You've been enrolled in {course_name}!"
 
 #: enterprise/utils.py:560 enterprise/utils.py:639
 msgid "`user` must have one of either `email` or `user_email`."
@@ -2114,6 +2232,9 @@ msgid ""
 "completion and performance in all {platform_name} courses and programs where"
 " my enrollment is sponsored by {enterprise_customer_name}."
 msgstr ""
+"I agree to allow {platform_name} to share data about my enrollment, "
+"completion and performance in all {platform_name} modules and programs where"
+" my enrollment is sponsored by {enterprise_customer_name}."
 
 #: enterprise/views.py:373
 msgid "Decline and go back"
@@ -2130,6 +2251,9 @@ msgid ""
 "{enterprise_customer_name} (or its designee) for these courses and programs "
 "are limited to the following:"
 msgstr ""
+"Enrollment, completion, and performance data that may be shared with "
+"{enterprise_customer_name} (or its designee) for these modules and programs "
+"are limited to the following:"
 
 #: enterprise/views.py:383
 #, python-brace-format
@@ -2160,12 +2284,17 @@ msgid ""
 " I enrolled in (audit or verified) and the date when I enrolled in each "
 "course or program"
 msgstr ""
+"What modules and/or programs I've enrolled in or unenrolled from, what track"
+" I enrolled in (audit or verified) and the date when I enrolled in each "
+"module or program"
 
 #: enterprise/views.py:402
 msgid ""
 "Information about each course or program I've enrolled in, including its "
 "duration and level of effort required"
 msgstr ""
+"Information about each module or program I've enrolled in, including its "
+"duration and level of effort required"
 
 #: enterprise/views.py:406
 msgid ""
@@ -2173,6 +2302,9 @@ msgid ""
 "whether I watched a given video or attempted or completed a given homework "
 "assignment)"
 msgstr ""
+"Whether I completed specific parts of each module or program (for example, "
+"whether I watched a given video or attempted or completed a given homework "
+"assignment)"
 
 #: enterprise/views.py:410
 msgid ""
@@ -2181,6 +2313,10 @@ msgid ""
 "when I last logged in to each course or program and how much of the course "
 "or program content I have consumed"
 msgstr ""
+"My overall percentage completion of each module or program on a periodic "
+"basis, including the total time spent in each module or program, the date "
+"when I last logged in to each module or program and how much of the module "
+"or program content I have consumed"
 
 #: enterprise/views.py:414
 msgid ""
@@ -2188,16 +2324,21 @@ msgid ""
 "on each assignment and current average of correct answers out of total "
 "attempted answers"
 msgstr ""
+"My performance in each module or program, including, for example, my score "
+"on each assignment and current average of correct answers out of total "
+"attempted answers"
 
 #: enterprise/views.py:416
 msgid ""
 "My final grade in each course or program, and the date when I completed each"
 " course or program"
 msgstr ""
+"My final grade in each module or program, and the date when I completed each"
+" module or program"
 
 #: enterprise/views.py:417
 msgid "Whether I received a certificate in each course or program"
-msgstr ""
+msgstr "Whether I received a certificate in each module or program"
 
 #: enterprise/views.py:420
 #, python-brace-format
@@ -2208,6 +2349,11 @@ msgid ""
 " I may withdraw my permission only by fully unenrolling from any courses or "
 "programs that are sponsored by {enterprise_customer_name}."
 msgstr ""
+"My permission applies only to data from modules or programs that are "
+"sponsored by {enterprise_customer_name}, and not to data from any "
+"{platform_name} modules or programs that I take on my own. I understand that"
+" I may withdraw my permission only by fully unenrolling from any modules or "
+"programs that are sponsored by {enterprise_customer_name}."
 
 #: enterprise/views.py:428
 msgid "Please note"
@@ -2275,7 +2421,7 @@ msgstr ""
 
 #: enterprise/views.py:617
 msgid "course completion"
-msgstr ""
+msgstr "module completion"
 
 #: enterprise/views.py:985
 msgid "Enterprise Slug Login"
@@ -2328,11 +2474,11 @@ msgstr ""
 
 #: enterprise/views.py:1602 enterprise/views.py:1603
 msgid "Confirm your course"
-msgstr ""
+msgstr "Confirm your module"
 
 #: enterprise/views.py:1605
 msgid "View Course Details"
-msgstr ""
+msgstr "View Module Details"
 
 #: enterprise/views.py:1606
 msgid "Please select one:"
@@ -2360,30 +2506,30 @@ msgstr ""
 
 #: enterprise/views.py:1614 enterprise/views.py:2112
 msgid "About This Course"
-msgstr ""
+msgstr "About This Module"
 
 #: enterprise/views.py:1615 enterprise/views.py:2113
 msgid "Course Staff"
-msgstr ""
+msgstr "Module Staff"
 
 #: enterprise/views.py:2052
 #, python-brace-format
 msgid "{count} Course"
 msgid_plural "{count} Courses"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{count} Module"
+msgstr[1] "{count} Modules"
 
 #: enterprise/views.py:2059
 msgid "{}-{} hours per week, per course"
-msgstr ""
+msgstr "{}-{} hours per week, per module"
 
 #: enterprise/views.py:2066
 msgid "{}-{} weeks per course"
-msgstr ""
+msgstr "{}-{} weeks per module"
 
 #: enterprise/views.py:2073
 msgid "Purchase all unenrolled courses"
-msgstr ""
+msgstr "Purchase all unenrolled modules"
 
 #: enterprise/views.py:2074
 msgid "enrollment"
@@ -2459,7 +2605,7 @@ msgstr ""
 
 #: enterprise/views.py:2139
 msgid "Self-paced; courses can be taken in any order"
-msgstr ""
+msgstr "Self-paced; modules can be taken in any order"
 
 #: enterprise/views.py:2141
 #, python-brace-format
@@ -2471,3 +2617,5 @@ msgid ""
 "To use this EnterpriseCourseEnrollmentSerializer, this package must be "
 "installed in an Open edX environment."
 msgstr ""
+"To use this EnterpriseModuleEnrollmentSerializer, this package must be "
+"installed in an Open edX environment."
